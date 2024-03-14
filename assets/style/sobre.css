@@ -1,0 +1,62 @@
+.article__sobre {
+    padding: 3% 5%;
+    text-align: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(59, 232, 176, 1) 100%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.article__sobre h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8em;
+    line-height: 42px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+    position: relative;
+
+}
+
+.article__sobre h2::before {
+    content: "______";
+    position: absolute;
+    top: .5rem;
+    text-align: center;
+    color: #A0FFFB;
+}
+
+.article__sobre h2::after {
+    content: "Physio Line";
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.article__sobre p {
+    font-family: 'Cambay';
+    font-style: normal;
+    font-weight: 6 00;
+    font-size: 23px;
+    line-height: 50px;
+    /* or 217% */
+
+    text-align: justify;
+
+    color: #F0F0F0;
+    margin-top: 1.5rem;
+    padding: 1rem 3%;
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .article__sobre p {
+        font-size: 1.1em;
+    }
+}

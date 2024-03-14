@@ -1,0 +1,147 @@
+.footer {
+    background: rgba(33, 33, 33, 0.85);
+    padding: 5em;
+    color: #FFF;
+}
+
+.footer__header {
+    display: flex;
+    align-items: baseline;
+    gap: 1.2em;
+}
+
+.footer__header h2 {
+    color: #FFF;
+    font-family: Cambay;
+    font-size: 1.8em;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 2.5em;
+}
+
+.footer__icon__baloon {
+    width: 30px;
+    height: 30px;
+}
+
+.footer__icon__baloon__alt {
+    width: 50px;
+    height: 50px;
+}
+
+.footer__container {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.footer__container__alt {
+    display: flex;
+    gap: 1.1em;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.footer__contatos {
+    border-right: 5px solid rgba(0, 0, 0, 0.25);
+    padding: 3em;
+}
+
+
+.footer__contatos h2 {
+    color: #FFF;
+    font-family: Cambay;
+    font-size: 1.8em;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+}
+
+.footer__contatos p {
+    color: #FFF;
+    font-family: Cambay;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.footer__address {
+    padding: 3em;
+}
+
+.footer__address h2 {
+    color: #FFF;
+    font-family: Cambay;
+    font-size: 1.8em;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+}
+
+.footer__address p {
+    color: #FFF;
+    font-family: Cambay;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.dev {
+    padding: 1.5em;
+    background-color: #3ABFA7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev p,
+a {
+    font-size: 24px;
+    font-family: 'Cambay', sans-serif;
+    color: #FFF;
+}
+
+.dev a {
+    text-decoration: none;
+}
+
+.dev a:hover {
+    color: #17554a;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1000px) {
+    .footer__header {
+        justify-content: center;
+    }
+
+    .footer__container,
+    .footer__container__alt {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__contatos {
+        border: none;
+    }
+
+    .footer__contatos p,
+    .footer__contatos h2 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer__address h2,
+    .footer__address p {
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .dev p,
+    .dev a {
+        text-align: center;
+    }
+
+
+
+}

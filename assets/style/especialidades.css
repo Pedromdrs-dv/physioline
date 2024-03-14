@@ -1,0 +1,80 @@
+.section__especialidades {
+    padding: 5em;
+    padding-top: 5em;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(59, 232, 176, 1) 100%, rgba(59, 232, 176, 1) 100%);
+    height: auto;
+}
+
+.section__especialidades h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8em;
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+.section__especialidades p {
+    color: #fff;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Cambay';
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.section__especialidades__card {
+    background-color: #fff;
+    border-radius: .6rem;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+}
+
+.l-cards {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    padding: 30px;
+}
+
+.section__especialidades__card__img {
+    align-items: center;
+    background-color: #fff;
+    border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
+    display: flex;
+    flex: 5;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+
+.section__especialidades__card__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.section__especialidades__card__content h4 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #17554a;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+
+    .section__especialidades h2,
+    .section__especialidades p {
+        text-align: center;
+    }
+}
