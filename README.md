@@ -29,8 +29,8 @@ Capaz de criar uma conta ou fazer login para agendar consultas (RU 02).
 
 Permissão para agendar ou cancelar consultas dentro do prazo estabelecido (RU 03).
 
-- Usuário Fisioterapeuta:
-Acesso à interface de agendamento de consultas para informar sua disponibilidade (RU 04).
+- Usuário Clínica:
+Acesso à interface de agendamento de consultas para informar a disponibilidade dos fisioterapeutas (RU 04).
 
 
 ## Requisitos
@@ -39,13 +39,13 @@ Acesso à interface de agendamento de consultas para informar sua disponibilidad
  - RU 01 - O usuário Cliente deve conseguir acessar informações sobre a clínica, incluindo localização, especialidades, horário de funcionamento.
  - RU 02 - O usuário Cliente deve conseguir criar uma conta ou fazer login para acessar serviços adicionais, como agendar uma consulta.
 -  RU 03 - O usuário Cliente deve possuir a permissão para agendar uma consulta ou cancelar uma consulta agendada, desde que dentro do prazo de cancelamento da consulta.
--  RU 04 - O usuário Fisioterapeuta deve conseguir ver a interface de agendamento de consultas para informar sua disponibilidade.
+-  RU 04 - O usuário Clínica deve conseguir ver a interface de agendamento de consultas para informar sua disponibilidade.
 
 ### Requisitos Funcionais (RF):
 - RF01 - O sistema deve possuir um espaço onde os pacientes possam obter informações sobre a clínica, serviços oferecidos e localização. (RU 01)
 - RF02 - O sistema deve permitir que os pacientes façam login em suas contas, ou realizem um cadastro para agendar consultas. (RU 02)
 - RF03 - O Sistema deve disponibilizar uma forma de agendamento online com calendário de disponibilidade. (RU 03)
-- RF04 - O sistema deve possuir uma interface para os fisioterapeutas atualizarem suas disponibilidades. (RU 04)
+- RF04 - O sistema deve possuir uma interface para visualizar as disponibilidades dos fisioterapeutas. (RU 04)
 - RF05 - O sistema deve registrar e atualizar as informações do paciente.
 - RF06 - O sistema deve manter um histórico completo de tratamentos e serviços prestados a cada paciente.
 
