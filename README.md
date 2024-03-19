@@ -56,5 +56,6 @@ Acesso à interface de agendamento de consultas para informar sua disponibilidad
 - RNF 04 - O sistema deve cumprir regulamentações de privacidade de dados e outras regulamentações locais aplicáveis.
 - RNF 05 - O sistema deve ser fácil de usar para pacientes e funcionários da clínica.
 ## Caso de Uso Macro
-
+![](usecase-Physioline.png)
 ## Modelo Relacional Diagramado
+![](mer-Physioline.png)
