@@ -54,6 +54,7 @@ O sistema web para a Clínica Physio Line foi criado para melhorar a presença o
 - RNF 05 - O sistema deve ser fácil de usar para pacientes e funcionários da clínica.
   
 ## Caso de Uso Macro
-![](usecase-Physioline.png)
-## Modelo Relacional Diagramado
-![](mer-Physioline.png)
+
+## Modelo Conceitual
+
+##Modelo Lógico
