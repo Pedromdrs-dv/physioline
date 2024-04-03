@@ -53,8 +53,4 @@ O sistema web para a Clínica Physio Line foi criado para melhorar a presença o
 - RNF 04 - O sistema deve cumprir regulamentações de privacidade de dados e outras regulamentações locais aplicáveis.
 - RNF 05 - O sistema deve ser fácil de usar para pacientes e funcionários da clínica.
   
-## Caso de Uso Macro
-
-## Modelo Conceitual
-
 ## Modelo Lógico
