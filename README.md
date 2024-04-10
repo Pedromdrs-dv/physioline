@@ -40,10 +40,10 @@ O sistema web para a Clínica Physio Line foi criado para melhorar a presença o
 
 ### Requisitos Funcionais (RF):
 - RF01 - O sistema deve possuir um espaço onde os pacientes possam obter informações sobre a clínica, serviços oferecidos e localização. (RU 01)
-- RF02 - O sistema deve permitir que os pacientes façam login em suas contas, ou realizem um cadastro para agendar consultas. (RU 02)
-- RF03 - O Sistema deve disponibilizar uma forma de agendamento online com calendário de disponibilidade. (RU 03)
-- RF04 - O sistema deve possuir uma interface para visualizar as disponibilidades dos fisioterapeutas. (RU 04)
-- RF05 - O sistema deve registrar e atualizar todas informações relacionadas a clínica. (RU 06)
+- RF02 - O sistema deve permitir que os usuários realizem cadastro e login. (RU 02)
+- RF03 - O Sistema deve disponibilizar uma interface de agendamento online. (RU 03)
+- RF04 - O sistema de agendamento deve possuir a função de agendar e cancelar consulta. (RU 04)
+- RF05 - O sistema deve possuir uma interface para registrar e atualizar todas informações relacionadas a clínica. (RU 06)
 - RF06 - O sistema deve manter um histórico completo de tratamentos e serviços prestados a cada paciente (RU 05).
 
 ### Requisitos Não Funcionais (RNF):
