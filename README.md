@@ -33,10 +33,10 @@ O sistema web para a Clínica Physio Line foi criado para melhorar a presença o
 ### Requisitos de Usuário (RU):
  - RU 01 - O usuário Pessoa deve conseguir acessar informações sobre a clínica, incluindo localização, especialidades, horário de funcionamento.
  - RU 02 - O usuário Pessoa deve conseguir criar uma conta ou fazer login para acessar serviços adicionais, como agendar uma consulta.
--  RU 03 - O usuário Paciente deve possuir a permissão para agendar uma consulta ou cancelar uma consulta agendada, desde que dentro do prazo de cancelamento da consulta.
--  RU 04 - O usuário Fisioterapeuta deve conseguir ver a interface de agendamento de consultas para informar sua disponibilidade.
--  RU 05 - O usuário Paciente deve conseguir visualizar um histórico completo dos serviços utilizados
--  RU 06 - O usuário Admin deve conseguir gerenciar todas informações vinculadas a clínica.
+-  RU 03 - O usuário Fisioterapeuta e Paciente devem conseguir visualizar a interface de agendamento de consultas.
+-  RU 04 - O usuário Paciente deve possuir a permissão para agendar uma consulta ou cancelar uma consulta agendada, desde que dentro do prazo de cancelamento da consulta.
+-  RU 05 - O usuário Paciente deve conseguir visualizar um histórico completo dos serviços utilizados.
+-  RU 06 - O usuário Admin deve conseguir gerenciar todas informações vinculadas a clínica e o sistema de agendamento.
 
 ### Requisitos Funcionais (RF):
 - RF01 - O sistema deve possuir um espaço onde os pacientes possam obter informações sobre a clínica, serviços oferecidos e localização. (RU 01)
