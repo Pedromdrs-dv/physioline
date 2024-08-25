@@ -50,7 +50,7 @@
             <a href="#article__sobre">Sobre</a>
             <a href="#section__especialidades">Especiliades</a>
             <a href="#footer">Contato</a>
-            <a href="login.html">Entrar</a>
+            <a href="/dev_projects/physioline/assets/src/login.php">Entrar</a>
         </nav>
     </header>
 
@@ -61,7 +61,7 @@
                 qualificados estão prontos para ajudá-lo! Deixe-nos cuidar de você e alcance uma vida mais saudável e
                 feliz.</p>
             <div class="container__btn">
-                <button><a href="login.html">Agendar</a></button>
+                <button><a href="/dev_projects/physioline/assets/src/login.php">Agendar</a></button>
             </div>
         </div>
         <div class="main__img">
