@@ -28,14 +28,15 @@
         if($result->num_rows > 0) {
             echo "Login efetuado com sucesso.";
         }
-        else {
+        else if($result->num_rows == 0) {
             echo "Email ou senha incorretos.";
         }
 
         $stmt->close();
         $connection->close();
     }
+
     else {
-        header("Location: /dev_projects/physioline/assets/src/login.php");
+        header("Location: /dev_projects/physioline/index.php");
     }
 ?>
