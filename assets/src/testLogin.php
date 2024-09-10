@@ -1,5 +1,6 @@
 <?php 
-    if(isset($_POST['submit'])) {
+    session_start();
+    if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])) {
         $email = $_POST['email'];
         $senha = $_POST['senha'];
 
@@ -26,10 +27,14 @@
         $result = $stmt->get_result();
 
         if($result->num_rows > 0) {
-            echo "Login efetuado com sucesso.";
+            $_SESSION['email'] = $email;
+            $_SESSION['senha'] = $senha;
+            header("Location: /dev_projects/physioline/assets/src/sistema.php");
         }
         else if($result->num_rows == 0) {
-            echo "Email ou senha incorretos.";
+            unset($_SESSION['email']);
+            unset($_SESSION['senha']);
+            header("Location: /dev_projects/physioline/login.php");
         }
 
         $stmt->close();
